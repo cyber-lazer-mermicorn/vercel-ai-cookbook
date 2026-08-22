@@ -48,7 +48,7 @@ export async function streamingWithTools(messages: any[]) {
     maxSteps: 3,
   });
 
-  return result.toAIStreamResponse();
+  return result.toDataStreamResponse();
 }
 
 // Pattern 3: Structured Output

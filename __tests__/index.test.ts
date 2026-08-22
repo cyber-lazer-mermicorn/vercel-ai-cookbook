@@ -1,3 +1,5 @@
+import { describe, expect, it } from 'vitest';
+
 import { withFallback } from '../lib/patterns';
 
 describe('withFallback', () => {
